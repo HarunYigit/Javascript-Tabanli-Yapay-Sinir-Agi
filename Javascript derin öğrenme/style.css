@@ -1,0 +1,244 @@
+.katman {
+    width: 150px;
+    height: auto;
+    padding-left: 4%;
+}
+
+.katman span {
+    position: absolute;
+    color: black;
+    margin-left: -18px;
+    margin-top: 10px;
+}
+
+.noron {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    padding-top: 12.5px;
+    font-size: 12px;
+}
+
+.noron div {
+    margin-left: 10px;
+    width: 100px;
+    position: absolute;
+    z-index: 99999;
+}
+
+#model {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+#modelyan {
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.son_cikti_label {
+    background-color: transparent;
+    border: 2px solid black;
+    width: 75px;
+    height: 75px
+}
+
+#predict {
+    margin-bottom: 50px;
+}
+
+#predict button {
+    padding: 8px 20px;
+}
+
+button {
+    background-color: white;
+    padding: 2px 10px;
+    border: 1px solid black;
+}
+
+#predict input {
+    width: 25%;
+    background-color: transparent;
+    border: 0px solid black;
+    border-bottom: 2px solid black;
+    padding-left: 25px;
+}
+
+.nokta {
+    background: url('./Drawing-116.sketchpad.png');
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    overflow: visible;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.bf {
+    border: 2px solid black;
+    border-top: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.bf span {
+    margin-top: 3px;
+}
+
+.cizgi {
+    background-color: black;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#epoch {
+    width: 400px;
+    padding-left: 10px;
+}
+
+#konsol {
+    width: 100%;
+    height: 220px;
+    border: 1px solid black;
+    margin-top: 10px;
+    border-top: 30px solid rgb(39, 39, 39);
+    background-color: silver;
+    padding: 20px;
+    overflow-y: scroll !important;
+    margin-bottom: 7px;
+}
+
+#konsol2 {
+    width: 100%;
+    height: 220px;
+    border: 1px solid black;
+    margin-top: 10px;
+    border-top: 30px solid rgb(39, 39, 39);
+    background-color: silver;
+    padding: 20px;
+    overflow-y: scroll !important;
+}
+
+#konsol #name {
+    color: white;
+    position: relative;
+    top: -48px;
+    left: -10px;
+}
+
+#dene {
+    margin-top: -30px;
+    width: 100%;
+}
+
+#dene input {
+    width: 100%;
+    padding: 3px 5px;
+}
+
+#canvas {
+    width: 90%
+}
+
+#model_arka {
+    position: absolute;
+    fill: red;
+    stroke: red;
+    top: -70px;
+    left: 20px;
+    z-index: -1;
+}
+#model_arka2 {
+    position: absolute;
+    fill: blue;
+    stroke: blue;
+    top: -70px;
+    left: 20px;
+    z-index: -1;
+}
+.sembol_katman {
+    max-height: 160px;
+    width: 20px;
+    background-color: red;
+    border-radius: 25px;
+    margin: 15px;
+}
+
+.sembol_katman input {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    top: -40px;
+    position: relative;
+    width: 50px;
+    border: 0px solid black;
+    left: -15px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+#katmans {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+code {
+    background: hsl(220, 80%, 90%);
+    padding-left: 25px;
+    border-radius: 5px;
+}
+
+pre {
+    white-space: pre-wrap;
+    padding: 15px;
+    background: silver;
+}
+
+#agirliklar {
+    position: absolute;
+    top: 0px;
+    z-index: 9999;
+    left: 0px;
+}
+
+#agirliklar_panel {
+    background-color: white;
+    height: 80px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 99999;
+    overflow-y: scroll;
+}
+
+#agirliklar_panel button {
+    margin: 5px;
+    border-radius: 3px;
+    margin-top: 4px;
+    color: black;
+}
+
+button {
+    border-radius: 5px;
+}
+.efekt{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px black;
+    z-index: -1;
+    border-radius: 50%;
+    position: absolute;
+
+}
